@@ -20,7 +20,8 @@ Next run classifier_test.py
 python classifier_test.py
 ```
 See the ouput and compare accuracy, recall, precision, F-measure of different classifiers.
-Additionally, Confusion Matrix can be printed
+Additionally, Confusion Matrix can be printed.
+The command is:
 ```python
 from pandas_ml import ConfusionMatrix as cm
 print cm(y_true,y_predicted)
